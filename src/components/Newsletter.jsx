@@ -15,13 +15,15 @@ function Newsletter() {
 							placeholder='Enter Email'
 							className='p-3 flex w-full rounded-md text-black'
 						/>
-						<button className='bg-[#00df9a] w-[200px] rounded-lg font-medium ml-4 my-6 px-6 py-3 text-black'>
+						<button className='bg-[#00df9a] hover:bg-[#00e4b8] w-[200px] rounded-lg font-medium ml-4 my-6 px-6 py-3 text-black hover:shadow-md transition duration-300'>
 							Notify Me
 						</button>
 					</div>
 					<p>
 						We care about the protection of your data. Read our{" "}
-						<span className='text-[#00df9a]'>Privacy Policy</span>
+						<span className='text-[#00df9a] hover:underline cursor-pointer'>
+							Privacy Policy
+						</span>
 					</p>
 				</div>
 			</div>

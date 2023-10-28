@@ -3,7 +3,7 @@ import Typed from "react-typed";
 function Hero() {
 	return (
 		<div className='text-white'>
-			<div className='max-w-[800px] mt-[96px] w-full h-screen mx-auto text-center flex flex-col justify-center'>
+			<div className='max-w-[800px] mt-16 w-full h-screen mx-auto text-center flex flex-col justify-center'>
 				<p className='text-[#00df9a] font-bold p-2'>
 					GROWING WITH DATA ANALYTICS
 				</p>
@@ -22,11 +22,11 @@ function Hero() {
 						loop
 					/>
 				</div>
-				<p className='md:text-2xl text-xl font-bold text-gray-500'>
+				<p className='md:text-2xl text-xl p-6 font-bold text-gray-500'>
 					Monitor your data analytics to increase revenue for BTB, BTC & SASS
 					platforms
 				</p>
-				<button className='bg-[#00df9a] w-[200px] rounded-lg font-medium my-6 mx-auto py-3 text-black'>
+				<button className='bg-[#00df9a] hover:bg-[#00e4b8] w-[200px] rounded-lg font-medium my-6 mx-auto py-3 text-black hover:shadow-md transition duration-300'>
 					Get Started
 				</button>
 			</div>

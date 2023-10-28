@@ -16,7 +16,7 @@ function Analytics() {
 						quisquam adipisci, dignissimos ab expedita doloribus sit aspernatur
 						voluptatibus debitis laudantium modi, fuga eum nobis.
 					</p>
-					<button className='bg-black text-[#00df9a] w-[200px] rounded-lg font-medium my-6 mx-auto md:mx-0 py-3'>
+					<button className='bg-black hover:bg-[#00fd9a] text-[#00df9a] hover:text-black transition duration-300 w-[200px] rounded-lg font-medium my-6 mx-auto md:mx-0 py-3'>
 						Get Started
 					</button>
 				</div>
